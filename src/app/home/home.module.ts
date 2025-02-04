@@ -16,6 +16,11 @@ import { SkillsComponent } from './components/skills/skills.component';
   imports: [
     CommonModule,
     HomeRoutingModule
+  ],
+  exports: [
+    HomeComponent,
+    ProfileComponent,
+    SkillsComponent
   ]
 })
 export class HomeModule { }

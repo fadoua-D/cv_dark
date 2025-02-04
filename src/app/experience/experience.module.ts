@@ -2,16 +2,19 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { ExperienceRoutingModule } from './experience-routing.module';
-//import { ExperienceComponent } from './experience/components/experience.component';
+import { ExperienceComponent } from './components/experience/experience.component';
 
 
 @NgModule({
   declarations: [
-   //ExperienceComponent
+    ExperienceComponent
   ],
   imports: [
     CommonModule,
     ExperienceRoutingModule
+  ],
+  exports: [
+    ExperienceComponent,
   ]
 })
 export class ExperienceModule { }

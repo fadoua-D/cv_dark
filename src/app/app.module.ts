@@ -3,17 +3,23 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-// import { EducationComponent } from './education/components/education/education.component';
+import { HomeModule } from './home/home.module';
+import { ExperienceModule } from './experience/experience.module';
+import { NewsModule } from './news/news.module';
+import { PortfolioModule } from './portfolio/portfolio.module';
 
 
 @NgModule({
   declarations: [
-    AppComponent
-    // EducationComponent
+    AppComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HomeModule,
+    ExperienceModule,
+    NewsModule,
+    PortfolioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
