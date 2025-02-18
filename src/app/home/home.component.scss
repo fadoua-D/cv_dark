@@ -1,0 +1,18 @@
+
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .carousel{
+    height: 400px;
+    width: 800px;
+  }
+  .bg-purple{
+    background-color: darkmagenta;
+  }
+
+  

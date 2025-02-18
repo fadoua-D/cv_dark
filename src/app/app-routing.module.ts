@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
+{path: '', redirectTo: 'accueil', pathMatch: 'full' },
 { path: '', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
 { path: '', loadChildren: () => import('./contact/contact.module').then(m => m.ContactModule) }, 
 { path: '', loadChildren: () => import('./experience/experience.module').then(m => m.ExperienceModule) },

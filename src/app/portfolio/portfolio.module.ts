@@ -3,18 +3,23 @@ import { CommonModule } from '@angular/common';
 
 import { PortfolioRoutingModule } from './portfolio-routing.module';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
+import { ProjectDetailComponent } from './components/project-detail/project-detail.component';
 
+import { CoreModule } from '../core/core.module';
 
 @NgModule({
   declarations: [
-    PortfolioComponent
+    PortfolioComponent,
+    ProjectDetailComponent
   ],
   imports: [
     CommonModule,
-    PortfolioRoutingModule
+    PortfolioRoutingModule,
+    CoreModule
   ],
   exports: [
-    PortfolioComponent
+    PortfolioComponent,
+    ProjectDetailComponent
   ]
 })
 export class PortfolioModule { }

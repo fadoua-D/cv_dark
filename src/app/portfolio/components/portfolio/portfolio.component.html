@@ -1,1 +1,16 @@
-<p>portfolio works!</p>
+<div class="container mt-4">
+    <h2 class="text-center text-purple mb-4">Mes Projets</h2>
+    <div class="row" *ngIf="projects">
+          <div class="col-md-4 mb-5" *ngFor="let project of projects">
+            <app-card-portfolio [projectInfo]="project"/>
+            <!-- <div class="card shadow-lg rounded">
+                <img [src]="project.imageUrl" [alt]="project.title" class="card-img-top" >
+                <div class="card-body">
+                <h5 class="card-title">{{project.title}}</h5>
+                <p class="card-text">{{project.description}}</p>
+                <a [routerLink]="['/project', project.id]" class="btn btn-primary">Voir le projet</a>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</div>

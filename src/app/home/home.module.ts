@@ -3,9 +3,9 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home.component';
+import { CoreModule } from '../core/core.module';
 import { ProfileComponent } from './components/profile/profile.component';
 import { SkillsComponent } from './components/skills/skills.component';
-
 
 @NgModule({
   declarations: [
@@ -15,7 +15,8 @@ import { SkillsComponent } from './components/skills/skills.component';
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    CoreModule
   ],
   exports: [
     HomeComponent,
