@@ -1,12 +1,12 @@
 <div class="container mt-4">
-  <h2 class="text-center text-purple mb-4">Actualités </h2>
+  <h2 class="text-center text-cv mb-4">Actualités </h2>
     <div class="row">
       <div class="col-md-4" *ngFor="let news of newsList">
         <div class="card shadow-lg">
           <div class="card-body">
             <h5 class="card-title">{{ news.title }}</h5>
             <p class="card-text">{{ news.body }}</p>
-            <a [routerLink]="'/actualites/' + news.id" class="btn btn-outline-purple">Lire plus</a>
+            <a [routerLink]="'/actualites/' + news.id" class="btn btn-outline-cv">Lire plus</a>
           </div>
         </div>
       </div>
