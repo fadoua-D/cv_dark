@@ -10,28 +10,28 @@ export class ProjectService {
     {
       id: 1,
       title: 'IM',
-      description: 'Une application de gestion des contrats dassurance',
+      description: 'Une application de gestion des contrats d\'assurance et des sinistres',
       imageUrl: '/images/projets/IM_accueil_backoofice.jpg',
-      githubLink: 'https://github.com/user/ecommerce-app',
-      demoLink: 'https://ecommerce-demo.com',
+      githubLink: '',
+      demoLink: 'https://identites-mutuelle.digital/login/',
       technologies: ['Node.js', 'API Rest', 'Bootstrap']
     },
     {
       id: 2,
       title: 'Viedaura',
-      description: 'Projet pour une entreprise de nettoyage',
+      description: 'Une application web pour la gestion des services d\'une société de nettoyage',
       imageUrl: '/images/projets/viedaura_accueil.jpg',
-      githubLink: 'https://github.com/user/ecommerce-app',
-      demoLink: 'https://ecommerce-demo.com',
+      githubLink: '',
+      demoLink: 'https://viedaura.fr/login/',
       technologies: ['Node.js', 'API Rest', 'Bootstrap']
     },
     {
       id: 3,
       title: 'Recherche des restaurant MacDonals',
-      description: 'Un portfolio interactif créé avec Angular.',
+      description: 'Une application pour trouver des restaurants créé avec Angular.',
       imageUrl: '/images/projets/macDo.png',
       githubLink: 'https://github.com/user/portfolio-angular',
-      demoLink: 'https://portfolio-demo.com',
+      demoLink: 'https://restaurant-theta-orpin.vercel.app/',
       technologies: ['Angular', 'TypeScript', 'Bootstrap']
     },
     {
@@ -40,7 +40,7 @@ export class ProjectService {
       description: 'Mon CV interactif créé avec Angular.',
       imageUrl: '/images/projets/portfolio.png',
       githubLink: 'https://github.com/user/portfolio-angular',
-      demoLink: 'https://portfolio-demo.com',
+      demoLink: 'https://cv-dark.vercel.app/accueil',
       technologies: ['Angular', 'TypeScript', 'Bootstrap']
     }
   ];
