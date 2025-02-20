@@ -1,8 +1,7 @@
 <div class="card shadow-lg rounded">
-    <img [src]="projectInfo.imageUrl" [alt]="projectInfo.title" class="card-img-top" >
+    <img [src]="projectInfo.imageUrl" [alt]="projectInfo.title" class="card-img-top card-image" >
     <div class="card-body">
     <h5 class="card-title">{{projectInfo.title}}</h5>
     <p class="card-text">{{projectInfo.description}}</p>
-    <!-- <a [routerLink]="['/project', project.id]" class="btn btn-primary">Voir le projet</a>
-    </div> -->
+    <a  href="{{projectInfo.demoLink}}"  class="btn btn-outline-cv" target="_blank">Démo</a>
 </div>
